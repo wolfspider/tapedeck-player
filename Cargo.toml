@@ -10,7 +10,6 @@ name = "tapedeck-player"
 version = "0.1.0"
 authors = ["wolfspider <jesse.alexander.bennnett@gmail.com>"]
 edition = "2018"
-build = "bsq/build.rs"
 
 [dependencies]
 
