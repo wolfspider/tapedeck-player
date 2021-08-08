@@ -1,0 +1,6 @@
+[submodule "bsq"]
+	path = bsq
+	url = https://github.com/wolfspider/bsq.git
+[submodule "tapedeck"]
+	path = tapedeck
+	url = https://github.com/wolfspider/tapedeck.git

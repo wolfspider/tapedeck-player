@@ -1,0 +1,31 @@
+[workspace]
+
+members = [
+	"bsq",
+	"tapedeck"
+]
+
+[package]
+name = "tapedeck-player"
+version = "0.1.0"
+authors = ["wolfspider <jesse.alexander.bennnett@gmail.com>"]
+edition = "2018"
+build = "bsq/build.rs"
+
+[dependencies]
+
+cpp = "0.5.5"
+
+[build-dependencies]
+
+cpp_build = "0.5.5"
+
+[lib]
+
+name = "bsq"
+path = "bsq/src/lib.rs"
+
+[[bin]]
+
+name = "tapedeck"
+path = "tapedeck/src/main.rs"
