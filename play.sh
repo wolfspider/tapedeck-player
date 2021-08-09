@@ -8,7 +8,7 @@
 
 
 if [[ -z "$1" ]]; then
-    echo "No video file specified"
+    echo "No Bosque file specified"
     exit 1
 fi
 
