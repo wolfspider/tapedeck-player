@@ -4,7 +4,7 @@ This is the main workspace for TapeDeck.
 
 Currently TapeDeck is working on FreeBSD but more platforms will follow.
 
-Dependencies needed are Cling, Rust, NodeJS, Z3, and TypeScript
+Dependencies needed are Cling, Doas, Rust, NodeJS, Z3, and TypeScript
 
 A custom version of Bosque is included in this project as a submodule.
 
