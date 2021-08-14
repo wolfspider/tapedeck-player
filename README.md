@@ -2,7 +2,7 @@
 
 This is the main workspace for TapeDeck.
 
-Currently TapeDeck is working on FreeBSD but more platforms will follow.
+Currently TapeDeck is working on FreeBSD and somewhat on Linux and more platforms will follow.
 
 Dependencies needed are Cling, Rust, NodeJS, Z3, and TypeScript
 
