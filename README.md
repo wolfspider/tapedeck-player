@@ -24,8 +24,8 @@ Rust analyzer may throw erroneous errors when trying to parse the auto-generated
 VSCode. Warnings may be generated from the Rust build process on some platforms.
 These are issues which are still being worked on.
 
-Right now in the custom Bosque runtime for on FreeBSD a symbolic link to Z3 is created
-in "/usr/local/bin/z3". This is the default installation path after installing it from ports.
+Right now in the custom Bosque runtime when the FreeBSD OS is detected a symbolic link to Z3 is created
+to execute Z3 at `/usr/local/bin/z3`. This is the default installation path after installing it from ports.
 
 For all other platforms Bosque will attempt to download a specific version of Z3.
 
